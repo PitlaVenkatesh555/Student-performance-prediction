@@ -10,7 +10,7 @@ with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load model
-joblib.dump(model, 'best_model.pkl')
+# joblib.dump(model, 'best_model.pkl')
 model = joblib.load('best_model.pkl')
 
 st.set_page_config(page_title="Student Performance ML", layout="wide")
