@@ -1,0 +1,23 @@
+body {
+    background-color: #0e1117;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+.stMetric {
+    background-color: #1c1f26;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sidebar .sidebar-content {
+    background-color: #111;
+}
+
+div.stButton > button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+}
