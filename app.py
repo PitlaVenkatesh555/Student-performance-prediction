@@ -3,15 +3,13 @@ import pandas as pd
 import pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
-import joblib
 
 # Load CSS
 with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Load model
-# joblib.dump(model, 'best_model.pkl')
-model = joblib.load('best_model.pkl')
+model = pickle.load(open("best_model.pkl", "rb"))
 
 st.set_page_config(page_title="Student Performance ML", layout="wide")
 
