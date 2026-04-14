@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
-immort joblib
+import joblib
 
 # Load CSS
 with open("style.css") as f:
